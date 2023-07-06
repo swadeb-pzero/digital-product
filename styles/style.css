@@ -77,3 +77,39 @@
     flex-direction: row-reverse;
     padding: 10px;
 }
+
+/* our services */
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: rgb(34, 33, 33) ;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    margin: 10px;
+}
+.box-title{
+    margin-bottom: 10px;
+}
+box-details{
+   padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+   
+}
+.services-main-container{
+    background-image: url('/images/background.png'),
+    linear-gradient(45deg, rgb(34, 30, 30), black);
+    color: white;
+    padding: 20px;
+}
