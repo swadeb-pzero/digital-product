@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    width:150px;
+}
+.menu{
+  display: flex;
+}
+.items{
+    margin-right: 10px;
+    padding-right: 7px;
+    cursor: pointer;
+}
+.items:hover{
+    color: orange;
+}
